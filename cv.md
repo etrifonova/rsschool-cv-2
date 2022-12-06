@@ -21,3 +21,6 @@ _The main task is not to abandon training at RSshool, to get a good knowledge ba
 ###Code Examples
 [link to my project-1](https://github.com/Savich01/project-js.git)
 [link to my project-2](https://github.com/Savich01/anim.git)
+****
+##my education
+Moscow Technical University of Communications and Informatics
