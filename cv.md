@@ -8,3 +8,12 @@
 ####Information about yourself
 _The main task is not to abandon training at RSshool, to get a good knowledge base and master the most promising technologies. In the future to get a job and continue your development in the direction of_ **Junior Frontend Developer**
 *********
+##My Skills
+1. Html 5
+2. css 3
+3. sass/scss
+4. flex-box
+5. Git/GitHub
+6. VC Code
+7. Adobe Photoshop, Figma
+8. БЭМ
