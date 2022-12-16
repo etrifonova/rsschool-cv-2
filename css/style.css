@@ -1,0 +1,161 @@
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #000;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  
+}
+
+/* ----------------------------- */
+.wrapper{
+  border: 1px solid #000;
+  min-height: 100vh;
+  max-width: 102rem;
+  margin: 3rem auto;
+}
+
+.header{
+  height: 20rem;
+}
+.header-row{
+  display: flex;
+  align-items: center;
+}
+.header-top__profile{
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 2.4rem;
+}
+.header-top__images{
+  order: -1;
+}
+.main__row{
+  display: flex;
+  justify-content: space-between;
+}
+.sidebar{
+  padding: 2rem;
+  width: 20rem;
+  margin-right: 2rem;
+  background-color: #606E8C;
+  box-shadow: 0rem 4rem 4rem rgba(0, 0, 0, .5);
+}
+.content{
+  padding: 2rem;
+  width: 78rem;
+  height: 70rem;
+  background-color: #2F353B;
+  box-shadow: 0rem 4rem 4rem rgba(0, 0, 0, .5);
+}
+.footer{
+  border: 1px solid #000;
+  height: 10rem;
+  background-color: #474A51;
+  padding: 2rem;
+  box-shadow: 0rem 4rem 4rem rgba(0, 0, 0, .5);
+  margin-top: 2rem;
+}
+.sidebar__title{
+  text-align: center;
+  border-bottom: 1px solid #fff;
+}
+.menu{
+  border-bottom: 1px solid #fff;
+}
+.sidebar__item{
+  margin-bottom: 1rem;
+  transition: all .3s;
+}
+.sidebar__item:hover{
+  color: red;
+}
+.sidebar__link{
+  color: #fff;
+}
+.content__title{
+  border-bottom: 1px solid #fff;
+  text-align: center;
+}
+.content__text{
+  color: #C7D0CC;
+}
+.skills-title{
+  border-bottom: 1px solid #fff;
+}
+.title{
+  text-align: center;
+}
+.skills__item{
+  transition: all .4s;
+  cursor: pointer;
+}
+.skills__item:hover{
+  transform: scale(1.1);
+}
+.code__link{
+  display: block;
+}
+.code__subtitle{
+  text-align: center;
+  border-bottom: 1px solid #fff;
+}
+.link{
+  margin-top: 5rem;
+}
+.education{
+  margin-top: 10rem;
+}
+.education__inner{
+  border-bottom: 1px solid #fff;
+}
+.education__title{
+  text-align: center;
+}
+.education__text{
+  text-align: center;
+}
+.english{
+  text-align: center;
+  margin-top: 5rem;
+}
+.english__inner{
+  border-bottom: 1px solid #fff;
+}
+.english__text span{
+  font-size: 2rem;
+}
+.footer__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__title{
+  font-size: 5rem;
+}
+.footer__link{
+  position: relative;
+}
+.footer__git{
+  padding-left: 10rem;
+  display: inline-block;
+  font-size: 2rem;
+  text-decoration: none;
+  color: aqua;
+}
+.footer__git::before{
+  content: '';
+  position: absolute;
+  background: url('/images/icons/icons-github.svg') 0 0 no-repeat;
+  width: 10rem;
+  height: 10rem;
+  top: -4rem;
+  left: 1rem;
+}
